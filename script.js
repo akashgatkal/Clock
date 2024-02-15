@@ -6,4 +6,5 @@ function displayTime(){
     let tm = document.getElementById("tm");
     tm.innerHTML =(hr+":"+mn+":"+sc)
 }
+
 setInterval(displayTime,1000)
